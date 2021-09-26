@@ -1,7 +1,12 @@
 // Массивы
 
 let arr = new Array(); // 1
-arr = [ 11, 'Javascript', { prop1: Math.PI }, [ 1, 2, 3] ]; // 2
+arr = [
+    11,
+    'Javascript',
+    {prop1: Math.PI},
+    [1, 2, 3],
+]; // 2
 
 arr[7] = 'Ай-яй-яй';
 
@@ -21,7 +26,7 @@ console.log('arr.splice(2, 1)');
 arr.splice(2, 1);
 console.log(arr[2]);
 
-let arr2 = [ 1, 2, 3 ];
+let arr2 = [1, 2, 3];
 arr2 = arr.concat(arr2);
 console.log(arr2);
 

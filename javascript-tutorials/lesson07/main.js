@@ -4,17 +4,17 @@
 console.log(Boolean(NaN));
 console.log(Boolean(null));
 console.log(Boolean(undefined));
-console.log(Boolean(""));
+console.log(Boolean(''));
 console.log(Boolean(0));
 
-console.log(Boolean("Javascript"));
+console.log(Boolean('Javascript'));
 console.log(Boolean(3.14));
 
 //undefined
-let obj = { param: 'Angular' },
-    arr = [ 1, 2, 3 ],
-    undef,
-    fun = (arg) => console.log(arg);
+let obj = {param: 'Angular'};
+let arr = [1, 2, 3];
+let undef;
+let fun = (arg) => console.log(arg);
 
 console.log(undef);
 console.log(obj.undef);

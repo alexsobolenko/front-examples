@@ -1,23 +1,23 @@
 // Примитивные и объектные данные. Обертки
 
 // примитивы
-let srt = 'Hulk Hogan',
-    num1 = 11,
-    num2 = 3.14,
-    bool = true,
-    undef,
-    nul = null;
+let srt = 'Hulk Hogan';
+let num1 = 11;
+let num2 = 3.14;
+let bool = true;
+let undef;
+let nul = null;
 
 // объектные
 let obj = {
-      prop: 'yo',
-      fun: () => {
+    prop: 'yo',
+    fun: () => {
         console.log('function in object');
-      }
     },
-    regexp = /baba/g,
-    func = () => {},
-    arr = [ 1, 2, 3 ];
+};
+let regexp = /baba/g;
+let func = () => {};
+let arr = [1, 2, 3];
 
 obj.prop = 'blabla';
 arr[2] = 24;

@@ -5,11 +5,11 @@ let index = 0;
 
 const run = () => {
     index += 1;
-
-    if (index >= img.length) index = 0;
+    if (index >= img.length) {
+        index = 0;
+    }
 
     imgs.style.transform = `translateX(${index * (-800)}px)`;
-
     setTimeout(run, 2000);
 };
 

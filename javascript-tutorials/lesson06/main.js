@@ -1,8 +1,8 @@
 // Строки
 
-let str = 'Javascript',
-    str2 = 'ReactJS',
-    str3 = 'Vue.js';
+let str = 'Javascript';
+let str2 = 'ReactJS';
+let str3 = 'Vue.js';
 
 console.log('str.length');
 console.log(str.length);

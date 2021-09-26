@@ -2,12 +2,12 @@
 
 let obj = new Object(); // 1
 obj = {                 // 2
-  prop1: 'Javascript',
-  prop2: 123.456,
-  prop3: true,
-  prop4: function() {
-    console.log(this.prop1)
-  }
+    prop1: 'Javascript',
+    prop2: 123.456,
+    prop3: true,
+    prop4: function() {
+        console.log(this.prop1);
+    },
 };
 
 console.log(typeof obj);

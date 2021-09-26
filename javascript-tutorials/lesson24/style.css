@@ -1,19 +1,19 @@
 .night, .day, .blue {
-  border: 1px solid #777;
-  padding: 10px;
-  margin: 10px;
+    border: 1px solid #777;
+    padding: 10px;
+    margin: 10px;
 }
 .night {
-  color: #fff;
-  background-color: #000;
+    color: #fff;
+    background-color: #000;
 }
 
 .day {
-  color: #000;
-  background-color: #fff;
+    color: #000;
+    background-color: #fff;
 }
 
 .blue {
-  color: #ff0;
-  background-color: #00f;
+    color: #ff0;
+    background-color: #00f;
 }

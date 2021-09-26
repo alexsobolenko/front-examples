@@ -27,6 +27,6 @@ console.log((typeof nul) + ' -> ' + nul);
 // объект
 let obj = {
   val: 'xxx',
-  sayHello: (name) => alert('Hello, ' + name)
+  sayHello: (name) => alert('Hello, ' + name),
 };
 console.log((typeof obj) + ' -> ' + obj);
