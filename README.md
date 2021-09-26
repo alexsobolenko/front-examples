@@ -7,3 +7,4 @@
 5. popup
 6. auto-write-text
 7. toast-notifications
+8. hamburger-menu
