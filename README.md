@@ -5,3 +5,4 @@
 3. backgroud-changer
 4. purple-heart-rain
 5. popup
+6. auto-write-text
