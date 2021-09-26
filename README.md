@@ -6,3 +6,4 @@
 4. purple-heart-rain
 5. popup
 6. auto-write-text
+7. toast-notifications
