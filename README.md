@@ -1,3 +1,4 @@
 # front examples
 
-* zoom effect
+1. zoom effect
+2. carousel
